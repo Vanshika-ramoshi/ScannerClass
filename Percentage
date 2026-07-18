@@ -1,0 +1,40 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Student {
+	
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Physics marks :");
+		int S1 = sc.nextInt();
+		
+		System.out.println("Enter English marks :");
+		int S2 = sc.nextInt();
+		
+		System.out.println("Enter Chemistry marks :");
+		int S3 = sc.nextInt();
+		
+		System.out.println("Enter Biology marks :");
+		int S4 = sc.nextInt();
+		
+		System.out.println("Enter Maths marks :");
+		int S5 = sc.nextInt();
+		
+		System.out.println("Enter Geography marks :");
+		int S6 = sc.nextInt();
+		
+		int total = S1+S2+S3+S4+S5+S6;
+		double percentage = (total / 500.0)*100;
+		
+		System.out.println("Total Marks :" + total);
+		System.out.println("Percentage  : " + percentage + "%");
+		sc.close();
+		
+
+	}
+
+}
+
