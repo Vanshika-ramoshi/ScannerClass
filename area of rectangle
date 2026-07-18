@@ -1,0 +1,23 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Student {
+	
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("ENTER LENGTH :");
+		double length = sc.nextDouble();
+		
+		System.out.println("ENTER WIDTH :");
+		double width = sc.nextDouble();
+		
+		double area = length * width;
+		System.out.println("Area of rectangle :" + area );
+		sc.close();
+
+	}
+
+}
