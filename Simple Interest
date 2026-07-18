@@ -1,0 +1,28 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Student {
+	
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+    System.out.println("ENTER PRINCIPLE :");
+		float principle = sc.nextFloat();
+		
+		System.out.println("ENTER RATE :");
+		float rate = sc.nextFloat();
+		
+		System.out.println("ENTER TIME :");
+		float time = sc.nextFloat();
+		
+		float si = (principle*rate*time)/100;
+		
+		System.out.println("Simple intrest-->" + si);
+		
+		sc.close();
+		
+	}
+
+}
